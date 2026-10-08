@@ -7,12 +7,16 @@
 }
 
 header {
-  background-color: #996633;
+  background-image: url("../img/banner-top.png"); /* Books banner */
+  background-repeat: repeat-x;
+  background-size: auto 50px;
+  background-position: left top;
   left: 0;
   position: fixed;
   height: 50px;
   width: 100%;
 }
+
 div{
   display: block;
 }
@@ -20,7 +24,10 @@ body {
   background-color: #472d12;
   color: black;
   font-family: Verdana;
+  margin: 0;
+  padding: 0;
 }
+
 h1, h2, h3, h4, h5, h6 {
   color: #523110;
   font-family: 'Lucida Handwriting', Lucida, cursive;
