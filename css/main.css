@@ -55,8 +55,46 @@ h1, h2, h3, h4, h5, h6 {
   top: 0px;
   z-index: 1;
   padding: 15px;
+  padding-top: 30px;
   bottom: 150px;
-} 
+}
+
+.side-menu {
+  border: 4px solid #36210d;
+  border-radius: 10px;
+  width: 250px;
+  background-color: #794f24;
+  padding: 10px;
+  font-size: 25px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.side-menu a {
+  border: 2px solid #36210d;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.oliver {
+  background-color: #4a90e2;
+}
+
+.veronica {
+  background-color: #6abf69;
+}
+
+.tom {
+  background-color: #f5a623;
+}
+
+.connor {
+  background-color: #d0021b;
+}
+
 .footer {
   background-color: #ae865d;
   position: fixed;
