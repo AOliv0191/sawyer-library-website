@@ -1,20 +1,23 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-
-* { /* * is the universal selector that applies to all elements */
+* { /*visual help to know where elements limits are*/
   outline: 1px solid red; 
 }
 
+html{
+  margin: 0;
+  padding: 0;
+}
 header {
   background-image: url("../img/banner-top.png"); /* Books banner */
   background-repeat: repeat-x;
   background-size: auto 50px;
-  background-position: left top;
-  left: 0;
+  background-position: top left;
+
   position: fixed;
-  height: 50px;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 50px;
+  z-index: 2; /*It has to be on top of the body*/
 }
 
 div{
@@ -32,22 +35,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #523110;
   font-family: 'Lucida Handwriting', Lucida, cursive;
 }
-.topnav {
-  background-color: #996633; /* Must replace late with a books background */
-  position: fixed;
-  width: 100%;
-  height: 50px;
-  margin-top: -25px;
-  z-index: 67;
-}
-.try {
+
+.page-body {
   background-color: #d8b38e;
-  position: fixed;    
-  top: 25px;
-  left: 50px;
-  right: 50px;
+  width: 85%;
+  margin: 25px auto;   
+  position: relative;
+  top: 0px;
+  z-index: 1;
+  padding: 15px;
   bottom: 150px;
-  overflow-y: auto;
 } 
 .footer {
   background-color: #ae865d;
